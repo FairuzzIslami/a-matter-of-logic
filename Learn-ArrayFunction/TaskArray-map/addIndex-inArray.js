@@ -6,3 +6,9 @@ function playerNumber(number){
     })
 }
 console.log(playerNumber())
+
+
+//NB:  -ketika kita menggunakan array method dan melakukan call back function,
+//     - dan function tersebut tidak membuat varibel functionya mengapa?
+//     - karena dia sudah di wakilkan oleh array methodnya
+//      - jadi gak perlu lagi membaut variebl function, cukup buat parameter aja
